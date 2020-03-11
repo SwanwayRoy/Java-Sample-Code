@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class DiamondPattern
 {
 
@@ -34,14 +32,9 @@ public class DiamondPattern
 
 	public static void main(String[] args)
 	{
-		Scanner sc = new Scanner (System.in);
-		int row;
-		
-		System.out.print("Enter the number of rows : ");
-		row = sc.nextInt();
+		int row = 5;
 		
 		DiamondPattern.diamond(row);
 		
-		sc.close();
 	}
 }
